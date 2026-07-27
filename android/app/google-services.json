@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383611394485",
+    "project_id": "deepshield-d615f",
+    "storage_bucket": "deepshield-d615f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383611394485:android:3a102138e6a39189c4e1fc",
+        "android_client_info": {
+          "package_name": "com.example.deepshield"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhFdF_Zg8GpWB2XA0azPtleYkj7Kie_ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
