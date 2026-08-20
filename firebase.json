@@ -1,1 +1,42 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"deepshield-d615f","appId":"1:383611394485:android:3a102138e6a39189c4e1fc","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"deepshield-d615f","configurations":{"android":"1:383611394485:android:3a102138e6a39189c4e1fc","ios":"1:383611394485:ios:a63a8d4e2b8a5490c4e1fc","macos":"1:383611394485:ios:a63a8d4e2b8a5490c4e1fc","web":"1:383611394485:web:7bd6c4b5d9152551c4e1fc","windows":"1:383611394485:web:df72b47601e3e76cc4e1fc"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "deepshield-d615f",
+          "appId": "1:383611394485:android:3a102138e6a39189c4e1fc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "deepshield-d615f",
+          "configurations": {
+            "android": "1:383611394485:android:3a102138e6a39189c4e1fc",
+            "ios": "1:383611394485:ios:a63a8d4e2b8a5490c4e1fc",
+            "macos": "1:383611394485:ios:a63a8d4e2b8a5490c4e1fc",
+            "web": "1:383611394485:web:7bd6c4b5d9152551c4e1fc",
+            "windows": "1:383611394485:web:df72b47601e3e76cc4e1fc"
+          }
+        }
+      }
+    }
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

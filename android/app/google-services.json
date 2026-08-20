@@ -12,7 +12,20 @@
           "package_name": "com.example.deepshield"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "383611394485-k01ebdbdfjibinmoajpf8860s06fbg69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deepshield",
+            "certificate_hash": "eeabc66498416405e6c1d219bef95bdfb2c3d67a"
+          }
+        },
+        {
+          "client_id": "383611394485-i6l6ha4imrqmlkfee121pk0ieobsq4bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDhFdF_Zg8GpWB2XA0azPtleYkj7Kie_ws"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383611394485-i6l6ha4imrqmlkfee121pk0ieobsq4bb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "383611394485-ib5s0kaf28spugel62b9uhhcssf68551.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.deepshield"
+              }
+            }
+          ]
         }
       }
     }

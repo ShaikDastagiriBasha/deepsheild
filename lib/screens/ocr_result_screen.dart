@@ -1,13 +1,22 @@
 import 'dart:io';
-
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
-
+import 'package:cross_file/cross_file.dart';
+import '../services/ocr_service.dart';
+import '../services/ocr/ocr_models.dart';
+import '../theme/app_theme.dart';
 import 'face_match_screen.dart';
 
+/// OCR Result Screen — Document Upload path
+///
+/// ROOT CAUSE FIX: The old implementation had its own primitive
+/// extractFields() method that took the first non-digit line as the name.
+/// This caused "HHI NAME" to appear instead of the real name.
+///
+/// FIX: Now exclusively delegates to OCRService — the single source of truth
+/// for all document parsing. No duplicate parsing logic in this screen.
 class OCRResultScreen extends StatefulWidget {
-
-  final File imageFile;
+  final XFile imageFile;
 
   const OCRResultScreen({
     super.key,
@@ -15,434 +24,392 @@ class OCRResultScreen extends StatefulWidget {
   });
 
   @override
-  State<OCRResultScreen> createState() =>
-      _OCRResultScreenState();
+  State<OCRResultScreen> createState() => _OCRResultScreenState();
 }
 
-class _OCRResultScreenState
-    extends State<OCRResultScreen> {
-
+class _OCRResultScreenState extends State<OCRResultScreen> {
   bool isLoading = true;
-
-  String extractedText = "";
-
-  String documentNumber = "";
-
-  String detectedName = "";
-
-  String documentType = "Unknown";
+  OCRResultData? _result;
+  final OCRService _ocrService = OCRService();
 
   @override
   void initState() {
     super.initState();
-
-    processOCR();
+    _processOCR();
   }
 
-  // OCR PROCESS
-  Future<void> processOCR() async {
+  @override
+  void dispose() {
+    _ocrService.dispose();
+    super.dispose();
+  }
 
+  Future<void> _processOCR() async {
     try {
-
-      final textRecognizer =
-          TextRecognizer();
-
-      final inputImage =
-          InputImage.fromFile(
-        widget.imageFile,
-      );
-
-      final RecognizedText
-          recognizedText =
-          await textRecognizer
-              .processImage(
-        inputImage,
-      );
-
-      extractedText =
-          recognizedText.text;
-
-      extractFields();
-
-      await textRecognizer.close();
-
+      // Single source of truth: always use OCRService
+      final result = await _ocrService.processPanDocument(widget.imageFile);
+      if (mounted) {
+        setState(() {
+          _result = result;
+          isLoading = false;
+        });
+      }
     } catch (e) {
-
-      print("OCR Error: $e");
-    }
-
-    setState(() {
-
-      isLoading = false;
-    });
-  }
-
-  // EXTRACT DOCUMENT DETAILS
-  void extractFields() {
-
-    // AADHAAR
-    final aadhaarRegex =
-        RegExp(r'\d{4}\s\d{4}\s\d{4}');
-
-    final aadhaarMatch =
-        aadhaarRegex.firstMatch(
-      extractedText,
-    );
-
-    if (aadhaarMatch != null) {
-
-      documentType =
-          "Aadhaar Card";
-
-      documentNumber =
-          aadhaarMatch.group(0)!;
-    }
-
-    // PAN
-    final panRegex =
-        RegExp(
-      r'[A-Z]{5}[0-9]{4}[A-Z]{1}',
-    );
-
-    final panMatch =
-        panRegex.firstMatch(
-      extractedText,
-    );
-
-    if (panMatch != null) {
-
-      documentType =
-          "PAN Card";
-
-      documentNumber =
-          panMatch.group(0)!;
-    }
-
-    // NAME EXTRACTION
-    final lines =
-        extractedText
-            .split('\n');
-
-    for (String line in lines) {
-
-      line = line.trim();
-
-      if (line.length > 3 &&
-          !line.contains(
-              RegExp(r'\d'))) {
-
-        detectedName = line;
-
-        break;
+      debugPrint('OCR Error: $e');
+      if (mounted) {
+        setState(() {
+          isLoading = false;
+        });
       }
     }
   }
 
   @override
-  Widget build(
-      BuildContext context) {
-
+  Widget build(BuildContext context) {
     return Scaffold(
-
-      backgroundColor:
-          const Color(0xFF081120),
-
+      backgroundColor: AppTheme.backgroundColor,
       appBar: AppBar(
-
-        backgroundColor:
-            Colors.transparent,
-
+        backgroundColor: Colors.transparent,
         elevation: 0,
-
         title: const Text(
-          "DeepShield OCR",
+          'DeepShield OCR',
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
+          onPressed: () => Navigator.pop(context),
         ),
       ),
-
       body: isLoading
-
           ? const Center(
-              child:
-                  CircularProgressIndicator(
-                color:
-                    Colors.blueAccent,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircularProgressIndicator(color: AppTheme.primaryColor),
+                  SizedBox(height: 20),
+                  Text(
+                    'Extracting document data...',
+                    style: TextStyle(color: Colors.white70),
+                  ),
+                ],
               ),
             )
-
-          : Padding(
-              padding:
-                  const EdgeInsets
-                      .all(20),
-
-              child:
-                  SingleChildScrollView(
-
-                child: Column(
-                  crossAxisAlignment:
-                      CrossAxisAlignment
-                          .start,
-
-                  children: [
-
-                    // IMAGE PREVIEW
-                    ClipRRect(
-                      borderRadius:
-                          BorderRadius.circular(
-                              20),
-
-                      child: Image.file(
-                        widget.imageFile,
-
-                        height: 220,
-
-                        width:
-                            double.infinity,
-
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 30),
-
-                    // TITLE
-                    const Text(
-                      "DeepShield AI Analysis",
-
-                      style: TextStyle(
-                        color:
-                            Colors.white,
-
-                        fontSize: 28,
-
-                        fontWeight:
-                            FontWeight.bold,
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 10),
-
-                    const Text(
-                      "OCR document extraction completed successfully",
-
-                      style: TextStyle(
-                        color:
-                            Colors.white70,
-
-                        fontSize: 15,
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 30),
-
-                    // DOCUMENT TYPE
-                    infoCard(
-                      "Document Type",
-                      documentType,
-                    ),
-
-                    const SizedBox(
-                        height: 20),
-
-                    // NAME
-                    infoCard(
-                      "Detected Name",
-                      detectedName.isEmpty
-                          ? "Not Found"
-                          : detectedName,
-                    ),
-
-                    const SizedBox(
-                        height: 20),
-
-                    // NUMBER
-                    infoCard(
-                      "Document Number",
-                      documentNumber
-                              .isEmpty
-                          ? "Not Found"
-                          : documentNumber,
-                    ),
-
-                    const SizedBox(
-                        height: 30),
-
-                    // EXTRACTED TEXT
-                    const Text(
-                      "Extracted Text",
-
-                      style: TextStyle(
-                        color:
-                            Colors.white,
-
-                        fontSize: 22,
-
-                        fontWeight:
-                            FontWeight.bold,
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 20),
-
-                    Container(
-                      width:
-                          double.infinity,
-
-                      padding:
-                          const EdgeInsets
-                              .all(20),
-
-                      decoration:
-                          BoxDecoration(
-                        color: Colors
-                            .white
-                            .withOpacity(
-                                0.06),
-
-                        borderRadius:
-                            BorderRadius.circular(
-                                20),
-                      ),
-
-                      child: Text(
-                        extractedText
-                                .isEmpty
-                            ? "No text detected"
-                            : extractedText,
-
-                        style:
-                            const TextStyle(
-                          color:
-                              Colors.white70,
-
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 35),
-
-                    // FACE MATCH BUTTON
-                    SizedBox(
-                      width:
-                          double.infinity,
-
-                      height: 60,
-
-                      child:
-                          ElevatedButton(
-
-                        style:
-                            ElevatedButton.styleFrom(
-                          backgroundColor:
-                              Colors.blueAccent,
-
-                          shape:
-                              RoundedRectangleBorder(
-                            borderRadius:
-                                BorderRadius.circular(
-                                    18),
-                          ),
-                        ),
-
-                        onPressed: () {
-
-                          Navigator.push(
-                            context,
-
-                            MaterialPageRoute(
-                              builder:
-                                  (context) =>
-                                      FaceMatchScreen(
-                                documentImage:
-                                    widget.imageFile,
-                              ),
-                            ),
-                          );
-                        },
-
-                        child: const Text(
-                          "Continue to Face Match",
-
-                          style: TextStyle(
-                            fontSize: 18,
-
-                            fontWeight:
-                                FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-
-                    const SizedBox(
-                        height: 30),
-                  ],
-                ),
-              ),
-            ),
+          : _buildResultBody(),
     );
   }
 
-  // INFO CARD
-  Widget infoCard(
-    String title,
-    String value,
-  ) {
+  Widget _buildResultBody() {
+    final r = _result;
+    if (r == null) {
+      return const Center(
+        child: Text(
+          'Could not process document.',
+          style: TextStyle(color: Colors.redAccent, fontSize: 16),
+        ),
+      );
+    }
 
-    return Container(
+    final bool hasDocNum = r.documentNumber.isNotEmpty;
+    final bool hasName = r.name.isNotEmpty;
 
-      width: double.infinity,
-
-      padding:
-          const EdgeInsets.all(
-              20),
-
-      decoration: BoxDecoration(
-        color:
-            Colors.white.withOpacity(
-                0.06),
-
-        borderRadius:
-            BorderRadius.circular(
-                20),
-      ),
-
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(20),
       child: Column(
-        crossAxisAlignment:
-            CrossAxisAlignment
-                .start,
-
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // Document preview
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: kIsWeb
+                ? Image.network(
+                    widget.imageFile.path,
+                    height: 220,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  )
+                : Image.file(
+                    File(widget.imageFile.path),
+                    height: 220,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+          ),
 
-          Text(
-            title,
+          const SizedBox(height: 24),
 
-            style: const TextStyle(
-              color:
-                  Colors.white70,
-
-              fontSize: 15,
+          // Document type + confidence badge
+          Container(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+            decoration: BoxDecoration(
+              color: r.confidenceScore >= 60
+                  ? Colors.green.withValues(alpha: 0.15)
+                  : Colors.amber.withValues(alpha: 0.15),
+              borderRadius: BorderRadius.circular(14),
+              border: Border.all(
+                color: r.confidenceScore >= 60
+                    ? Colors.greenAccent.withValues(alpha: 0.4)
+                    : Colors.amberAccent.withValues(alpha: 0.4),
+              ),
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      r.confidenceScore >= 60
+                          ? Icons.verified_rounded
+                          : Icons.warning_amber_rounded,
+                      color: r.confidenceScore >= 60
+                          ? Colors.greenAccent
+                          : Colors.amberAccent,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      r.documentTypeLabel,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+                Text(
+                  '${r.confidenceScore.toInt()}% confidence',
+                  style: TextStyle(
+                    color: r.confidenceScore >= 60
+                        ? Colors.greenAccent
+                        : Colors.amberAccent,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 13,
+                  ),
+                ),
+              ],
             ),
           ),
 
-          const SizedBox(
-              height: 10),
+          const SizedBox(height: 24),
 
-          Text(
-            value,
-
-            style: const TextStyle(
+          const Text(
+            'Extracted Information',
+            style: TextStyle(
               color: Colors.white,
-
-              fontSize: 22,
-
-              fontWeight:
-                  FontWeight.bold,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
             ),
+          ),
+          const SizedBox(height: 16),
+
+          _infoCard(
+            icon: Icons.security,
+            label: 'Name',
+            value: hasName ? r.name : 'Not detected',
+            isDetected: hasName,
+          ),
+          const SizedBox(height: 12),
+          _infoCard(
+            icon: Icons.badge_outlined,
+            label: _docNumberLabel(r.documentType),
+            value: hasDocNum ? r.documentNumber : 'Not detected',
+            isDetected: hasDocNum,
+          ),
+          const SizedBox(height: 12),
+          _infoCard(
+            icon: Icons.cake_outlined,
+            label: 'Date of Birth',
+            value: r.dob.isNotEmpty ? r.dob : 'Not detected',
+            isDetected: r.dob.isNotEmpty,
+          ),
+          if (r.gender != null && r.gender!.isNotEmpty) ...[
+            const SizedBox(height: 12),
+            _infoCard(
+              icon: Icons.wc_outlined,
+              label: 'Gender',
+              value: r.gender!,
+              isDetected: true,
+            ),
+          ],
+
+          if (r.errorMessage != null) ...[
+            const SizedBox(height: 16),
+            Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: Colors.amber.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(12),
+                border:
+                    Border.all(color: Colors.amberAccent.withValues(alpha: 0.4)),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.info_outline,
+                      color: Colors.amberAccent, size: 18),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Text(
+                      r.errorMessage!,
+                      style: const TextStyle(
+                          color: Colors.amberAccent, fontSize: 12),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+
+          const SizedBox(height: 28),
+
+          // Raw text expandable
+          ExpansionTile(
+            tilePadding: EdgeInsets.zero,
+            title: const Text(
+              'Raw OCR Text',
+              style: TextStyle(
+                color: Colors.white70,
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            iconColor: Colors.white54,
+            collapsedIconColor: Colors.white54,
+            children: [
+              Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  color: Colors.white.withValues(alpha: 0.05),
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: Text(
+                  r.rawText?.isEmpty ?? true ? 'No text detected' : r.rawText!,
+                  style: const TextStyle(
+                    color: Colors.white60,
+                    fontSize: 13,
+                    fontFamily: 'monospace',
+                  ),
+                ),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 30),
+
+          SizedBox(
+            width: double.infinity,
+            height: 58,
+            child: ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppTheme.primaryColor,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18),
+                ),
+                elevation: 4,
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        FaceMatchScreen(documentImage: widget.imageFile),
+                  ),
+                );
+              },
+              icon: const Icon(Icons.face_retouching_natural),
+              label: const Text(
+                'Continue to Face Match',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 30),
+        ],
+      ),
+    );
+  }
+
+  String _docNumberLabel(DocumentType docType) {
+    switch (docType) {
+      case DocumentType.pan:
+        return 'PAN Number';
+      case DocumentType.aadhaar:
+        return 'Aadhaar Number';
+      case DocumentType.drivingLicence:
+        return 'Licence Number';
+      case DocumentType.passport:
+        return 'Passport Number';
+      case DocumentType.voterId:
+        return 'EPIC Number';
+      case DocumentType.unknown:
+        return 'Document Number';
+    }
+  }
+
+  Widget _infoCard({
+    required IconData icon,
+    required String label,
+    required String value,
+    required bool isDetected,
+  }) {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: isDetected
+              ? AppTheme.primaryColor.withValues(alpha: 0.3)
+              : Colors.white.withValues(alpha: 0.08),
+        ),
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: AppTheme.primaryColor.withValues(alpha: 0.15),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Icon(icon, color: AppTheme.primaryAccent, size: 22),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  style: const TextStyle(
+                    color: Colors.white54,
+                    fontSize: 12,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  value,
+                  style: TextStyle(
+                    color: isDetected ? Colors.white : Colors.white38,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Icon(
+            isDetected ? Icons.check_circle_rounded : Icons.cancel_outlined,
+            color: isDetected
+                ? Colors.greenAccent
+                : Colors.white24,
+            size: 20,
           ),
         ],
       ),

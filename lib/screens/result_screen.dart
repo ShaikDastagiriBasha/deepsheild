@@ -1,167 +1,113 @@
 import 'package:flutter/material.dart';
-
-import 'scan_screen.dart';
+import '../theme/app_theme.dart';
 import 'history_screen.dart';
+import 'scan_screen.dart';
 
 class ResultScreen extends StatelessWidget {
-
   final String result;
   final double confidence;
 
-  ResultScreen({
+  const ResultScreen({
+    super.key,
     required this.result,
     required this.confidence,
   });
 
   @override
   Widget build(BuildContext context) {
-
     bool isReal = result == "REAL";
 
     return Scaffold(
-
-      backgroundColor: Color(0xFF081120),
-
+      backgroundColor: AppTheme.backgroundColor,
       body: SafeArea(
-
         child: Padding(
-          padding: EdgeInsets.all(20),
-
+          padding: const EdgeInsets.all(20),
           child: SingleChildScrollView(
-
             child: Column(
               children: [
-
-                SizedBox(height: 20),
-
-                // TITLE
-                Text(
+                const SizedBox(height: 20),
+                const Text(
                   "AI Detection Result",
-
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 30,
-                    fontWeight:
-                        FontWeight.bold,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
-
-                SizedBox(height: 40),
-
-                // RESULT ICON
+                const SizedBox(height: 40),
                 Container(
-                  padding: EdgeInsets.all(35),
-
+                  padding: const EdgeInsets.all(35),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-
                     color: isReal
-                        ? Colors.green
-                            .withOpacity(0.15)
-                        : Colors.red
-                            .withOpacity(0.15),
+                        ? Colors.green.withValues(alpha: 0.15)
+                        : Colors.red.withValues(alpha: 0.15),
                   ),
-
                   child: Icon(
                     isReal
                         ? Icons.verified_user
                         : Icons.warning_rounded,
-
                     size: 120,
-
-                    color: isReal
-                        ? Colors.greenAccent
-                        : Colors.redAccent,
+                    color: isReal ? Colors.greenAccent : Colors.redAccent,
                   ),
                 ),
-
-                SizedBox(height: 30),
-
-                // RESULT TEXT
+                const SizedBox(height: 30),
                 Text(
                   result,
-
                   style: TextStyle(
-                    color: isReal
-                        ? Colors.greenAccent
-                        : Colors.redAccent,
-
+                    color: isReal ? Colors.greenAccent : Colors.redAccent,
                     fontSize: 42,
-                    fontWeight:
-                        FontWeight.bold,
+                    fontWeight: FontWeight.bold,
                     letterSpacing: 2,
                   ),
                 ),
-
-                SizedBox(height: 12),
-
+                const SizedBox(height: 12),
                 Text(
                   isReal
                       ? "Live Human Detected"
                       : "Deepfake Content Detected",
-
                   textAlign: TextAlign.center,
-
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.white70,
                     fontSize: 18,
                   ),
                 ),
-
-                SizedBox(height: 40),
-
-                // ANALYTICS CARD
+                const SizedBox(height: 40),
                 Container(
-
-                  padding: EdgeInsets.all(22),
-
+                  padding: const EdgeInsets.all(22),
                   decoration: BoxDecoration(
-                    color:
-                        Colors.white.withOpacity(0.05),
-
-                    borderRadius:
-                        BorderRadius.circular(24),
+                    color: Colors.white.withValues(alpha: 0.05),
+                    borderRadius: BorderRadius.circular(24),
                   ),
-
                   child: Column(
                     children: [
-
                       analyticsTile(
                         icon: Icons.analytics,
                         title: "Confidence Score",
-                        value:
-                            "${confidence.toStringAsFixed(2)}%",
+                        value: "${confidence.toStringAsFixed(2)}%",
                       ),
-
-                      Divider(
+                      const Divider(
                         color: Colors.white24,
                         height: 30,
                       ),
-
                       analyticsTile(
                         icon: Icons.security,
                         title: "Risk Level",
-                        value: isReal
-                            ? "LOW"
-                            : "HIGH",
+                        value: isReal ? "LOW" : "HIGH",
                       ),
-
-                      Divider(
+                      const Divider(
                         color: Colors.white24,
                         height: 30,
                       ),
-
                       analyticsTile(
                         icon: Icons.timer,
                         title: "Detection Time",
                         value: "3.2 Seconds",
                       ),
-
-                      Divider(
+                      const Divider(
                         color: Colors.white24,
                         height: 30,
                       ),
-
                       analyticsTile(
                         icon: Icons.verified,
                         title: "Verification",
@@ -170,53 +116,34 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-
-                SizedBox(height: 30),
-
-                // AI SUMMARY CARD
+                const SizedBox(height: 30),
                 Container(
-
                   width: double.infinity,
-
-                  padding: EdgeInsets.all(22),
-
+                  padding: const EdgeInsets.all(22),
                   decoration: BoxDecoration(
-                    color:
-                        Colors.white.withOpacity(0.05),
-
-                    borderRadius:
-                        BorderRadius.circular(24),
+                    color: Colors.white.withValues(alpha: 0.05),
+                    borderRadius: BorderRadius.circular(24),
                   ),
-
                   child: Column(
-                    crossAxisAlignment:
-                        CrossAxisAlignment.start,
-
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-
-                      Text(
+                      const Text(
                         "AI Security Summary",
-
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 22,
-                          fontWeight:
-                              FontWeight.bold,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
-
-                      SizedBox(height: 18),
-
+                      const SizedBox(height: 18),
                       summaryPoint(
                         isReal
                             ? "Authentic facial characteristics detected"
                             : "Synthetic facial artifacts detected",
                       ),
-
                       summaryPoint(
                         "Liveness verification successfully completed",
                       ),
-
                       summaryPoint(
                         isReal
                             ? "No spoofing attempt identified"
@@ -225,99 +152,67 @@ class ResultScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-
-                SizedBox(height: 40),
-
-                // BUTTONS
+                const SizedBox(height: 40),
                 SizedBox(
                   width: double.infinity,
                   height: 58,
-
                   child: ElevatedButton(
-
                     style: ElevatedButton.styleFrom(
-                      backgroundColor:
-                          Color(0xFF2563EB),
-
+                      backgroundColor: AppTheme.primaryColor,
                       shape: RoundedRectangleBorder(
-                        borderRadius:
-                            BorderRadius.circular(
-                          18,
-                        ),
+                        borderRadius: BorderRadius.circular(18),
                       ),
                     ),
-
                     onPressed: () {
-
                       Navigator.pushReplacement(
                         context,
-
                         MaterialPageRoute(
-                          builder: (context) =>
-                              ScanScreen(),
+                          builder: (context) => const ScanScreen(),
                         ),
                       );
                     },
-
-                    child: Text(
+                    child: const Text(
                       "SCAN AGAIN",
-
                       style: TextStyle(
                         fontSize: 18,
-                        fontWeight:
-                            FontWeight.bold,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
                       ),
                     ),
                   ),
                 ),
-
-                SizedBox(height: 18),
-
+                const SizedBox(height: 18),
                 SizedBox(
                   width: double.infinity,
                   height: 58,
-
                   child: OutlinedButton(
-
                     style: OutlinedButton.styleFrom(
-                      side: BorderSide(
-                        color: Colors.blueAccent,
+                      side: const BorderSide(
+                        color: AppTheme.primaryAccent,
                       ),
-
                       shape: RoundedRectangleBorder(
-                        borderRadius:
-                            BorderRadius.circular(
-                          18,
-                        ),
+                        borderRadius: BorderRadius.circular(18),
                       ),
                     ),
-
                     onPressed: () {
-
                       Navigator.push(
                         context,
-
                         MaterialPageRoute(
-                          builder: (context) =>
-                              HistoryScreen(),
+                          builder: (context) => const HistoryScreen(),
                         ),
                       );
                     },
-
-                    child: Text(
+                    child: const Text(
                       "VIEW HISTORY",
-
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
-                        fontWeight:
-                            FontWeight.bold,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
                 ),
-
-                SizedBox(height: 25),
+                const SizedBox(height: 25),
               ],
             ),
           ),
@@ -326,61 +221,43 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  // ANALYTICS TILE
   Widget analyticsTile({
     required IconData icon,
     required String title,
     required String value,
   }) {
-
     return Row(
       children: [
-
         Container(
-          padding: EdgeInsets.all(12),
-
+          padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
-            color:
-                Colors.blueAccent.withOpacity(0.2),
-
-            borderRadius:
-                BorderRadius.circular(14),
+            color: AppTheme.primaryColor.withValues(alpha: 0.2),
+            borderRadius: BorderRadius.circular(14),
           ),
-
           child: Icon(
             icon,
-            color: Colors.blueAccent,
+            color: AppTheme.primaryAccent,
           ),
         ),
-
-        SizedBox(width: 18),
-
+        const SizedBox(width: 18),
         Expanded(
           child: Column(
-            crossAxisAlignment:
-                CrossAxisAlignment.start,
-
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
               Text(
                 title,
-
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white70,
                   fontSize: 14,
                 ),
               ),
-
-              SizedBox(height: 5),
-
+              const SizedBox(height: 5),
               Text(
                 value,
-
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 20,
-                  fontWeight:
-                      FontWeight.bold,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ],
@@ -390,31 +267,22 @@ class ResultScreen extends StatelessWidget {
     );
   }
 
-  // SUMMARY POINT
   Widget summaryPoint(String text) {
-
     return Padding(
-      padding: EdgeInsets.only(bottom: 14),
-
+      padding: const EdgeInsets.only(bottom: 14),
       child: Row(
-        crossAxisAlignment:
-            CrossAxisAlignment.start,
-
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-
-          Icon(
+          const Icon(
             Icons.check_circle,
             color: Colors.greenAccent,
             size: 22,
           ),
-
-          SizedBox(width: 10),
-
+          const SizedBox(width: 10),
           Expanded(
             child: Text(
               text,
-
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.white70,
                 fontSize: 15,
                 height: 1.4,

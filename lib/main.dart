@@ -1,43 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'screens/auth_wrapper.dart';
-import 'firebase_options.dart';
-
 import 'screens/splash_screen.dart';
+import 'theme/app_theme.dart';
 
-void main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-
-  runApp(DeepShieldApp());
+  // Show the app UI immediately without blocking on heavy initializations.
+  // Initialization is handled asynchronously inside the SplashScreen.
+  runApp(const DeepShieldApp());
 }
 
 class DeepShieldApp extends StatelessWidget {
+  const DeepShieldApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'DeepShield',
+      title: 'DeepShield AI KYC',
       debugShowCheckedModeBanner: false,
-
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        scaffoldBackgroundColor: Color(0xFF081120),
-
-        primaryColor: Color(0xFF2563EB),
-
-        fontFamily: 'Poppins',
-
-        appBarTheme: AppBarTheme(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          centerTitle: true,
-        ),
-      ),
-
-      home: AuthWrapper(),
+      theme: AppTheme.darkTheme,
+      home: const SplashScreen(),
     );
   }
 }

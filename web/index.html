@@ -19,7 +19,7 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
-
+  <meta name="google-signin-client_id" content="383611394485-i6l6ha4imrqmlkfee121pk0ieobsq4bb.apps.googleusercontent.com">
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -41,6 +41,15 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
+  <!-- face-api.js for ML in browser -->
+  <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <!-- Tesseract.js for OCR in browser -->
+  <script defer src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  
+  <!-- Custom JS Wrappers -->
+  <script defer src="js/face_api_wrapper.js"></script>
+  <script defer src="js/ocr_wrapper.js"></script>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

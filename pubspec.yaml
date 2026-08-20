@@ -30,23 +30,40 @@ dependencies:
   firebase_core: ^3.15.2
   firebase_auth: ^5.6.2
   cloud_firestore: ^5.6.11
+  firebase_storage: ^12.3.7
+  google_sign_in: ^6.2.2
 
   # ML KIT
-  google_mlkit_face_detection: ^0.9.0
-  google_mlkit_text_recognition: ^0.11.0
-  google_mlkit_commons: ^0.6.0
+  google_mlkit_face_detection: 0.14.0
+  google_mlkit_text_recognition: 0.16.0
+  google_mlkit_commons: 0.12.0
 
   # NETWORK
   http: ^0.13.6
+  onnxruntime_v2: ^1.23.2+2
+  cross_file: ^0.3.5+4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/models/mobilefacenet.tflite
+    - assets/models/w600k_mbf.onnx
+    - assets/models/adaface_ir_18.onnx
+    - assets/models/ppocrv5_det.onnx
+    - assets/models/ppocrv5_rec.onnx
+    - assets/models/ppocrv5_dict.txt
+    - assets/models/LICENSE.txt
+    - assets/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/deepshield_icon.png"

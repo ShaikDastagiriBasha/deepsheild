@@ -14,7 +14,7 @@ android {
 
     namespace = "com.example.deepshield"
 
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
 
     ndkVersion = flutter.ndkVersion
 
@@ -37,7 +37,7 @@ android {
         // ✅ REQUIRED FOR ML KIT
         minSdk = 26
 
-        targetSdk = flutter.targetSdkVersion
+        targetSdk = 36
 
         versionCode = flutter.versionCode
 
@@ -51,6 +51,7 @@ android {
             // Using debug signing temporarily
             signingConfig =
                 signingConfigs.getByName("debug")
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }

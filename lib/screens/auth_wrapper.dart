@@ -1,47 +1,35 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import '../theme/app_theme.dart';
 import 'login_screen.dart';
 import 'main_navigation_screen.dart';
 
 class AuthWrapper extends StatelessWidget {
+  const AuthWrapper({super.key});
 
   @override
   Widget build(BuildContext context) {
-
     return StreamBuilder<User?>(
-      stream:
-          FirebaseAuth.instance.authStateChanges(),
-
+      stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
-
-        // LOADING
-        if (snapshot.connectionState ==
-            ConnectionState.waiting) {
-
-          return Scaffold(
-
-            backgroundColor:
-                Color(0xFF081120),
-
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            backgroundColor: AppTheme.backgroundColor,
             body: Center(
-              child:
-                  CircularProgressIndicator(
-                color: Colors.blueAccent,
+              child: CircularProgressIndicator(
+                color: AppTheme.primaryColor,
               ),
             ),
           );
         }
 
-        // USER LOGGED IN
         if (snapshot.hasData) {
-
-          return MainNavigationScreen();
+          return const MainNavigationScreen();
         }
 
-        // USER NOT LOGGED IN
-        return LoginScreen();
+        return const LoginScreen();
       },
     );
   }
-}
+}

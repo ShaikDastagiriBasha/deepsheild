@@ -1,45 +1,35 @@
 import 'package:flutter/material.dart';
 
+import '../theme/app_theme.dart';
 import 'dashboard_screen.dart';
-import 'scan_screen.dart';
 import 'history_screen.dart';
 import 'profile_screen.dart';
+import 'video_kyc/video_kyc_flow_screen.dart';
 
 class MainNavigationScreen extends StatefulWidget {
+  const MainNavigationScreen({super.key});
 
   @override
-  _MainNavigationScreenState createState() =>
-      _MainNavigationScreenState();
+  State<MainNavigationScreen> createState() => MainNavigationScreenState();
 }
 
-class _MainNavigationScreenState
-    extends State<MainNavigationScreen> {
-
+class MainNavigationScreenState extends State<MainNavigationScreen> {
   int currentIndex = 0;
 
-  final List<Widget> screens = [
-
+  final List<Widget> screens = const [
     DashboardScreen(),
-
-    ScanScreen(),
-
+    VideoKYCFlowScreen(),
     HistoryScreen(),
-
     ProfileScreen(),
   ];
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
-
       body: screens[currentIndex],
-
       bottomNavigationBar: Container(
-
-        decoration: BoxDecoration(
-          color: Color(0xFF0F172A),
-
+        decoration: const BoxDecoration(
+          color: AppTheme.cardColor,
           boxShadow: [
             BoxShadow(
               color: Colors.black54,
@@ -47,51 +37,33 @@ class _MainNavigationScreenState
             ),
           ],
         ),
-
         child: BottomNavigationBar(
-
           currentIndex: currentIndex,
-
           onTap: (index) {
-
             setState(() {
               currentIndex = index;
             });
           },
-
-          backgroundColor:
-              Color(0xFF0F172A),
-
-          selectedItemColor:
-              Colors.blueAccent,
-
-          unselectedItemColor:
-              Colors.white54,
-
-          type:
-              BottomNavigationBarType.fixed,
-
+          backgroundColor: AppTheme.cardColor,
+          selectedItemColor: AppTheme.primaryAccent,
+          unselectedItemColor: Colors.white54,
+          type: BottomNavigationBarType.fixed,
           elevation: 0,
-
-          items: [
-
+          items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: "Home",
             ),
-
             BottomNavigationBarItem(
               icon: Icon(Icons.camera_alt),
               label: "Scan",
             ),
-
             BottomNavigationBarItem(
               icon: Icon(Icons.history),
               label: "History",
             ),
-
             BottomNavigationBarItem(
-              icon: Icon(Icons.person),
+              icon: Icon(Icons.security),
               label: "Profile",
             ),
           ],
