@@ -1,0 +1,17 @@
+{
+  "name": "deepshield-web-e2e",
+  "version": "1.0.0",
+  "description": "Selenium E2E automation for DeepShield Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js --timeout 60000 --reporter mochawesome --reporter-options reportDir=reports/html,reportFilename=execution-report",
+    "report": "node utils/reportGenerator.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "exceljs": "^4.3.0",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
