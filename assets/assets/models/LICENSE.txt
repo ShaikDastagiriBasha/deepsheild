@@ -1,0 +1,5 @@
+The InsightFace pre-trained models (including `w600k_mbf.onnx`) are released under a non-commercial research use license. 
+
+For commercial use, please contact the InsightFace team to obtain a commercial license, or replace this model with an appropriately licensed alternative.
+
+This model is included for student/demonstration purposes only in this build.
