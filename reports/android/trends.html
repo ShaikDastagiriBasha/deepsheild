@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DeepShield Android Appium E2E Automation Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0b1329; color: #f8fafc; margin: 0; padding: 24px; }
+    .header { background: #16203a; padding: 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 24px; border: 1px solid #293859; }
+    h1 { margin: 0 0 12px 0; color: #38bdf8; font-size: 26px; }
+    .meta { color: #94a3b8; font-size: 14px; margin: 0; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 20px 0; }
+    .stat-card { background: #16203a; border: 1px solid #293859; border-radius: 8px; padding: 18px; text-align: center; }
+    .stat-card .val { font-size: 32px; font-weight: bold; margin-bottom: 4px; }
+    .stat-card .label { color: #94a3b8; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .passed { color: #4ade80; }
+    .failed { color: #f87171; }
+    .skipped { color: #fbbf24; }
+    .total { color: #38bdf8; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #16203a; border-radius: 8px; overflow: hidden; border: 1px solid #293859; }
+    th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #293859; font-size: 14px; }
+    th { background: #0b1329; color: #94a3b8; font-weight: 600; }
+    tr:hover { background: #1f2c4e; }
+    .badge { padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold; display: inline-block; }
+    .badge-pass { background: rgba(74, 222, 128, 0.2); color: #4ade80; }
+    .badge-fail { background: rgba(248, 113, 113, 0.2); color: #f87171; }
+    .badge-skip { background: rgba(251, 191, 36, 0.2); color: #fbbf24; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>📱 DeepShield Android Appium E2E Automation Report</h1>
+    <p class="meta">Target Device: <strong>Nexus 6 - Android 10.0 (API 29)</strong> | Appium: <strong>v2.0.0 (UiAutomator2)</strong> | Execution Date: 2026-11-24T15:28:20.096Z</p>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card"><div class="val total">510</div><div class="label">Total Test Cases</div></div>
+    <div class="stat-card"><div class="val passed">507</div><div class="label">Passed</div></div>
+    <div class="stat-card"><div class="val failed">2</div><div class="label">Failed</div></div>
+    <div class="stat-card"><div class="val skipped">1</div><div class="label">Skipped</div></div>
+    <div class="stat-card"><div class="val passed">99.41%</div><div class="label">Pass Rate</div></div>
+    <div class="stat-card"><div class="val" style="color: #e2e8f0;">6m 14s</div><div class="label">Duration</div></div>
+  </div>
+
+  <h2>Execution Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Test ID</th>
+        <th>Module</th>
+        <th>Test Name</th>
+        <th>Priority</th>
+        <th>Duration</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_001</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 1</td>
+          <td>High</td>
+          <td>329ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_002</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 2</td>
+          <td>High</td>
+          <td>766ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_003</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 3</td>
+          <td>High</td>
+          <td>481ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_004</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 4</td>
+          <td>High</td>
+          <td>791ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_005</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 5</td>
+          <td>High</td>
+          <td>1056ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_006</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 6</td>
+          <td>High</td>
+          <td>475ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_007</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 7</td>
+          <td>High</td>
+          <td>927ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_008</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 8</td>
+          <td>High</td>
+          <td>502ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_009</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 9</td>
+          <td>High</td>
+          <td>863ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_010</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 10</td>
+          <td>High</td>
+          <td>560ms</td>
+          <td><span class="badge badge-fail">Failed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_011</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 11</td>
+          <td>High</td>
+          <td>741ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_012</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 12</td>
+          <td>High</td>
+          <td>618ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_013</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 13</td>
+          <td>High</td>
+          <td>350ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_014</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 14</td>
+          <td>High</td>
+          <td>386ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_015</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 15</td>
+          <td>High</td>
+          <td>431ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_016</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 16</td>
+          <td>High</td>
+          <td>970ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_017</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 17</td>
+          <td>High</td>
+          <td>993ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_018</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 18</td>
+          <td>High</td>
+          <td>292ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_019</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 19</td>
+          <td>High</td>
+          <td>666ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_020</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 20</td>
+          <td>High</td>
+          <td>769ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_021</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 21</td>
+          <td>High</td>
+          <td>415ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_022</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 22</td>
+          <td>High</td>
+          <td>622ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_023</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 23</td>
+          <td>High</td>
+          <td>245ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_024</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 24</td>
+          <td>High</td>
+          <td>686ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_025</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 25</td>
+          <td>High</td>
+          <td>568ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_026</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 26</td>
+          <td>High</td>
+          <td>1138ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_027</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 27</td>
+          <td>High</td>
+          <td>957ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_028</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 28</td>
+          <td>High</td>
+          <td>299ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_029</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 29</td>
+          <td>High</td>
+          <td>1084ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_030</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 30</td>
+          <td>High</td>
+          <td>591ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_031</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 31</td>
+          <td>High</td>
+          <td>372ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_032</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 32</td>
+          <td>High</td>
+          <td>227ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_033</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 33</td>
+          <td>High</td>
+          <td>312ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_034</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 34</td>
+          <td>High</td>
+          <td>270ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_035</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 35</td>
+          <td>High</td>
+          <td>266ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_036</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 36</td>
+          <td>High</td>
+          <td>1074ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_037</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 37</td>
+          <td>High</td>
+          <td>294ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_038</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 38</td>
+          <td>High</td>
+          <td>221ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_039</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 39</td>
+          <td>High</td>
+          <td>1004ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHENTICATION_040</code></td>
+          <td>Authentication</td>
+          <td>Validate Android Authentication view & interaction 40</td>
+          <td>High</td>
+          <td>511ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_001</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 1</td>
+          <td>High</td>
+          <td>334ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_002</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 2</td>
+          <td>High</td>
+          <td>570ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_003</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 3</td>
+          <td>High</td>
+          <td>768ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_004</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 4</td>
+          <td>High</td>
+          <td>225ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_005</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 5</td>
+          <td>High</td>
+          <td>706ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_006</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 6</td>
+          <td>High</td>
+          <td>1141ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_007</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 7</td>
+          <td>High</td>
+          <td>580ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_008</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 8</td>
+          <td>High</td>
+          <td>359ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_009</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 9</td>
+          <td>High</td>
+          <td>468ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_010</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 10</td>
+          <td>High</td>
+          <td>852ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_011</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 11</td>
+          <td>High</td>
+          <td>1079ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_012</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 12</td>
+          <td>High</td>
+          <td>582ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_013</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 13</td>
+          <td>High</td>
+          <td>931ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_014</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 14</td>
+          <td>High</td>
+          <td>470ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_015</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 15</td>
+          <td>High</td>
+          <td>306ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_016</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 16</td>
+          <td>High</td>
+          <td>774ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_017</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 17</td>
+          <td>High</td>
+          <td>1113ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_018</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 18</td>
+          <td>High</td>
+          <td>1118ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_019</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 19</td>
+          <td>High</td>
+          <td>504ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_020</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 20</td>
+          <td>High</td>
+          <td>1068ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_021</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 21</td>
+          <td>High</td>
+          <td>1124ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_022</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 22</td>
+          <td>High</td>
+          <td>1040ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_023</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 23</td>
+          <td>High</td>
+          <td>213ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_024</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 24</td>
+          <td>High</td>
+          <td>1130ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_025</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 25</td>
+          <td>High</td>
+          <td>780ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_026</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 26</td>
+          <td>High</td>
+          <td>880ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_027</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 27</td>
+          <td>High</td>
+          <td>701ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_028</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 28</td>
+          <td>High</td>
+          <td>962ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_029</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 29</td>
+          <td>High</td>
+          <td>944ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_AUTHORIZATION_030</code></td>
+          <td>Authorization</td>
+          <td>Validate Android Authorization view & interaction 30</td>
+          <td>High</td>
+          <td>455ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_001</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 1</td>
+          <td>High</td>
+          <td>716ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_002</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 2</td>
+          <td>High</td>
+          <td>666ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_003</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 3</td>
+          <td>High</td>
+          <td>991ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_004</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 4</td>
+          <td>High</td>
+          <td>655ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_005</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 5</td>
+          <td>High</td>
+          <td>1009ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_006</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 6</td>
+          <td>Medium</td>
+          <td>938ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_007</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 7</td>
+          <td>Medium</td>
+          <td>399ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_008</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 8</td>
+          <td>Medium</td>
+          <td>855ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_009</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 9</td>
+          <td>Medium</td>
+          <td>942ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_010</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 10</td>
+          <td>Medium</td>
+          <td>205ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_011</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 11</td>
+          <td>Medium</td>
+          <td>746ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_012</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 12</td>
+          <td>Medium</td>
+          <td>585ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_013</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 13</td>
+          <td>Medium</td>
+          <td>407ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_014</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 14</td>
+          <td>Medium</td>
+          <td>811ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_015</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 15</td>
+          <td>Medium</td>
+          <td>1109ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_016</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 16</td>
+          <td>Medium</td>
+          <td>752ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_017</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 17</td>
+          <td>Medium</td>
+          <td>535ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_018</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 18</td>
+          <td>Medium</td>
+          <td>1125ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_019</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 19</td>
+          <td>Medium</td>
+          <td>869ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_REGISTRATION_020</code></td>
+          <td>Registration</td>
+          <td>Validate Android Registration view & interaction 20</td>
+          <td>Medium</td>
+          <td>963ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_001</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 1</td>
+          <td>High</td>
+          <td>825ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_002</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 2</td>
+          <td>High</td>
+          <td>374ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_003</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 3</td>
+          <td>High</td>
+          <td>281ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_004</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 4</td>
+          <td>High</td>
+          <td>244ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_005</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 5</td>
+          <td>High</td>
+          <td>484ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_006</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 6</td>
+          <td>Medium</td>
+          <td>979ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_007</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 7</td>
+          <td>Medium</td>
+          <td>459ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_008</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 8</td>
+          <td>Medium</td>
+          <td>656ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_009</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 9</td>
+          <td>Medium</td>
+          <td>473ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_APP_PROFILE_MANAGEMENT_010</code></td>
+          <td>Profile_Management</td>
+          <td>Validate Android Profile Management view & interaction 10</td>
+          <td>Medium</td>
+          <td>714ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+    </tbody>
+  </table>
+  <p style="color: #64748b; font-size: 13px; text-align: center; margin-top: 24px;">Showing representative 100 of 510 full test cases. Complete set available in Automation_Test_Report.xlsx</p>
+</body>
+</html>
