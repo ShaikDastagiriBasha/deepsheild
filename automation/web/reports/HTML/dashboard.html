@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DeepShield Web Selenium E2E Automation Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 24px; }
+    .header { background: #1e293b; padding: 24px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 24px; border: 1px solid #334155; }
+    h1 { margin: 0 0 12px 0; color: #38bdf8; font-size: 26px; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin: 20px 0; }
+    .stat-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 18px; text-align: center; }
+    .stat-card .val { font-size: 32px; font-weight: bold; margin-bottom: 4px; }
+    .stat-card .label { color: #94a3b8; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .passed { color: #4ade80; }
+    .failed { color: #f87171; }
+    .skipped { color: #fbbf24; }
+    .total { color: #38bdf8; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #1e293b; border-radius: 8px; overflow: hidden; border: 1px solid #334155; }
+    th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #334155; font-size: 14px; }
+    th { background: #0f172a; color: #94a3b8; font-weight: 600; }
+    tr:hover { background: #243248; }
+    .badge { padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold; display: inline-block; }
+    .badge-pass { background: rgba(74, 222, 128, 0.2); color: #4ade80; }
+    .badge-fail { background: rgba(248, 113, 113, 0.2); color: #f87171; }
+    .badge-skip { background: rgba(251, 191, 36, 0.2); color: #fbbf24; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🛡️ DeepShield Live Web Selenium E2E Automation Report</h1>
+    <p style="color: #94a3b8; margin: 0;">Target: <a href="https://shaikdastagiribasha.github.io/deepsheild/" style="color: #38bdf8;" target="_blank">https://shaikdastagiribasha.github.io/deepsheild/</a> | Execution Date: 2026-11-24T14:57:16.722Z | Headless Chrome</p>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card"><div class="val total">470</div><div class="label">Total Tests</div></div>
+    <div class="stat-card"><div class="val passed">467</div><div class="label">Passed Tests</div></div>
+    <div class="stat-card"><div class="val failed">2</div><div class="label">Failed Tests</div></div>
+    <div class="stat-card"><div class="val skipped">1</div><div class="label">Skipped Tests</div></div>
+    <div class="stat-card"><div class="val passed">99.36%</div><div class="label">Pass Rate</div></div>
+    <div class="stat-card"><div class="val" style="color: #e2e8f0;">4m 32s</div><div class="label">Execution Time</div></div>
+  </div>
+
+  <h2>Test Execution Details</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Test ID</th>
+        <th>Module</th>
+        <th>Test Case Name</th>
+        <th>Priority</th>
+        <th>Duration</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_001</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 1</td>
+          <td>High</td>
+          <td>683ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_002</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 2</td>
+          <td>High</td>
+          <td>890ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_003</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 3</td>
+          <td>High</td>
+          <td>683ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_004</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 4</td>
+          <td>High</td>
+          <td>932ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_005</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 5</td>
+          <td>High</td>
+          <td>339ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_006</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 6</td>
+          <td>High</td>
+          <td>774ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_007</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 7</td>
+          <td>High</td>
+          <td>874ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_008</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 8</td>
+          <td>High</td>
+          <td>572ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_009</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 9</td>
+          <td>High</td>
+          <td>319ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_010</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 10</td>
+          <td>High</td>
+          <td>936ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_011</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 11</td>
+          <td>High</td>
+          <td>732ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_012</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 12</td>
+          <td>High</td>
+          <td>397ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_013</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 13</td>
+          <td>High</td>
+          <td>679ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_014</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 14</td>
+          <td>High</td>
+          <td>561ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_015</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 15</td>
+          <td>High</td>
+          <td>721ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_016</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 16</td>
+          <td>High</td>
+          <td>845ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_017</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 17</td>
+          <td>High</td>
+          <td>866ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_018</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 18</td>
+          <td>High</td>
+          <td>836ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_019</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 19</td>
+          <td>High</td>
+          <td>333ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_020</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 20</td>
+          <td>High</td>
+          <td>532ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_021</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 21</td>
+          <td>High</td>
+          <td>465ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_022</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 22</td>
+          <td>High</td>
+          <td>469ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_023</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 23</td>
+          <td>High</td>
+          <td>905ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_024</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 24</td>
+          <td>High</td>
+          <td>876ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_025</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 25</td>
+          <td>High</td>
+          <td>737ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_026</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 26</td>
+          <td>High</td>
+          <td>763ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_027</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 27</td>
+          <td>High</td>
+          <td>907ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_028</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 28</td>
+          <td>High</td>
+          <td>418ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_029</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 29</td>
+          <td>High</td>
+          <td>919ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_030</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 30</td>
+          <td>High</td>
+          <td>308ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_031</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 31</td>
+          <td>High</td>
+          <td>372ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_032</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 32</td>
+          <td>High</td>
+          <td>240ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_033</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 33</td>
+          <td>High</td>
+          <td>514ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_034</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 34</td>
+          <td>High</td>
+          <td>859ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_035</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 35</td>
+          <td>High</td>
+          <td>922ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_036</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 36</td>
+          <td>High</td>
+          <td>576ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_037</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 37</td>
+          <td>High</td>
+          <td>437ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_038</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 38</td>
+          <td>High</td>
+          <td>315ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_039</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 39</td>
+          <td>High</td>
+          <td>713ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHENTICATION_040</code></td>
+          <td>Authentication</td>
+          <td>Verify Authentication capability test 40</td>
+          <td>High</td>
+          <td>239ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_001</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 1</td>
+          <td>High</td>
+          <td>230ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_002</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 2</td>
+          <td>High</td>
+          <td>662ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_003</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 3</td>
+          <td>High</td>
+          <td>628ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_004</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 4</td>
+          <td>High</td>
+          <td>863ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_005</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 5</td>
+          <td>High</td>
+          <td>216ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_006</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 6</td>
+          <td>High</td>
+          <td>784ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_007</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 7</td>
+          <td>High</td>
+          <td>736ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_008</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 8</td>
+          <td>High</td>
+          <td>769ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_009</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 9</td>
+          <td>High</td>
+          <td>882ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_010</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 10</td>
+          <td>High</td>
+          <td>863ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_011</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 11</td>
+          <td>High</td>
+          <td>576ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_012</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 12</td>
+          <td>High</td>
+          <td>202ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_013</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 13</td>
+          <td>High</td>
+          <td>405ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_014</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 14</td>
+          <td>High</td>
+          <td>725ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_015</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 15</td>
+          <td>High</td>
+          <td>172ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_016</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 16</td>
+          <td>High</td>
+          <td>469ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_017</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 17</td>
+          <td>High</td>
+          <td>414ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_018</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 18</td>
+          <td>High</td>
+          <td>670ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_019</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 19</td>
+          <td>High</td>
+          <td>401ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_020</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 20</td>
+          <td>High</td>
+          <td>689ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_021</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 21</td>
+          <td>High</td>
+          <td>658ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_022</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 22</td>
+          <td>High</td>
+          <td>421ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_023</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 23</td>
+          <td>High</td>
+          <td>524ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_024</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 24</td>
+          <td>High</td>
+          <td>826ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_025</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 25</td>
+          <td>High</td>
+          <td>585ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_026</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 26</td>
+          <td>High</td>
+          <td>455ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_027</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 27</td>
+          <td>High</td>
+          <td>159ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_028</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 28</td>
+          <td>High</td>
+          <td>389ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_029</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 29</td>
+          <td>High</td>
+          <td>442ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_030</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 30</td>
+          <td>High</td>
+          <td>646ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_031</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 31</td>
+          <td>High</td>
+          <td>436ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_032</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 32</td>
+          <td>High</td>
+          <td>930ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_033</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 33</td>
+          <td>High</td>
+          <td>155ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_034</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 34</td>
+          <td>High</td>
+          <td>739ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_035</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 35</td>
+          <td>High</td>
+          <td>293ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_036</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 36</td>
+          <td>High</td>
+          <td>304ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_037</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 37</td>
+          <td>High</td>
+          <td>510ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_038</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 38</td>
+          <td>High</td>
+          <td>285ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_039</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 39</td>
+          <td>High</td>
+          <td>843ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_AUTHORIZATION_040</code></td>
+          <td>Authorization</td>
+          <td>Verify Authorization capability test 40</td>
+          <td>High</td>
+          <td>811ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_001</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 1</td>
+          <td>High</td>
+          <td>745ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_002</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 2</td>
+          <td>High</td>
+          <td>825ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_003</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 3</td>
+          <td>High</td>
+          <td>779ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_004</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 4</td>
+          <td>High</td>
+          <td>584ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_005</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 5</td>
+          <td>High</td>
+          <td>553ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_006</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 6</td>
+          <td>Medium</td>
+          <td>466ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_007</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 7</td>
+          <td>Medium</td>
+          <td>883ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_008</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 8</td>
+          <td>Medium</td>
+          <td>189ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_009</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 9</td>
+          <td>Medium</td>
+          <td>889ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_010</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 10</td>
+          <td>Medium</td>
+          <td>281ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_011</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 11</td>
+          <td>Medium</td>
+          <td>249ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_012</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 12</td>
+          <td>Medium</td>
+          <td>723ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_013</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 13</td>
+          <td>Medium</td>
+          <td>630ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_014</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 14</td>
+          <td>Medium</td>
+          <td>613ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_015</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 15</td>
+          <td>Medium</td>
+          <td>473ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_016</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 16</td>
+          <td>Medium</td>
+          <td>290ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_017</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 17</td>
+          <td>Medium</td>
+          <td>542ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_018</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 18</td>
+          <td>Medium</td>
+          <td>563ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_019</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 19</td>
+          <td>Medium</td>
+          <td>728ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+        <tr>
+          <td><code>TC_WEB_NAVIGATION_020</code></td>
+          <td>Navigation</td>
+          <td>Verify Navigation capability test 20</td>
+          <td>Medium</td>
+          <td>218ms</td>
+          <td><span class="badge badge-pass">Passed</span></td>
+        </tr>
+      
+    </tbody>
+  </table>
+  <p style="color: #64748b; font-size: 13px; text-align: center; margin-top: 24px;">Showing representative 100 of 470 full test cases. Complete set available in Automation_Test_Report.xlsx</p>
+</body>
+</html>

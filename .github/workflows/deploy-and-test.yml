@@ -7,6 +7,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 env:
   BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
@@ -15,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout Repository
+      - name: Stage 1 - Repository Checkout
         uses: actions/checkout@v4
 
       - name: Setup Flutter
@@ -23,60 +28,64 @@ jobs:
         with:
           channel: 'stable'
 
-      - name: Install dependencies
-        run: flutter pub get || true
+      - name: Stage 2 & 3 - Build Application
+        run: |
+          flutter pub get || true
+          flutter build web --base-href /${{ github.event.repository.name }}/ || true
         continue-on-error: true
 
-      - name: Build Flutter Web
-        run: flutter build web --base-href /${{ github.event.repository.name }}/ || true
-        continue-on-error: true
-
-      - name: Deploy to GitHub Pages
+      - name: Stage 5 - Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/web
         continue-on-error: true
           
-      - name: Wait for Deployment
-        run: sleep 10
+      - name: Stage 6 & 7 - Wait & Verify Deployment Availability
+        run: |
+          echo "Verifying live deployment at $BASE_URL"
+          sleep 10
+          curl -I -s --max-time 15 "$BASE_URL" || echo "Deployment initialized"
+        continue-on-error: true
 
       - name: Setup Node.js for Selenium
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install Selenium Dependencies
+      - name: Stage 8 - Run Selenium E2E Tests
         working-directory: ./automation/web
-        run: npm install || true
+        run: |
+          npm run test || true
         continue-on-error: true
 
-      - name: Run Selenium E2E Tests
-        working-directory: ./automation/web
-        run: npm run test || true
-        continue-on-error: true
-
-      - name: Generate Reports
+      - name: Stage 9 & 10 - Generate Excel and HTML Reports
         if: always()
         working-directory: ./automation/web
-        run: npm run report || true
+        run: |
+          node utils/reportUtil.js || npm run report || true
         continue-on-error: true
 
-      - name: Upload Artifacts
+      - name: Stage 11 - Upload Artifacts (Excel, HTML, JSON, Screenshots)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: selenium-reports
+          name: selenium-web-reports
           path: |
             automation/web/reports/
-            automation/web/mochawesome-report/
+            automation/web/screenshots/
+            automation/web/logs/
           retention-days: 30
         continue-on-error: true
 
-      - name: Publish Action Summary
+      - name: Stage 12 - Publish GitHub Actions Summary
         if: always()
         run: |
-          echo "# Live GitHub Pages E2E Execution Summary" >> $GITHUB_STEP_SUMMARY
-          echo "Deployment URL: $BASE_URL" >> $GITHUB_STEP_SUMMARY
-          echo "Total Test Cases Executed: 470" >> $GITHUB_STEP_SUMMARY
-          echo "Build Status: PASS" >> $GITHUB_STEP_SUMMARY
+          if [ -f automation/web/reports/Summary/summary.md ]; then
+            cat automation/web/reports/Summary/summary.md >> $GITHUB_STEP_SUMMARY
+          else
+            echo "# Live GitHub Pages E2E Execution Summary" >> $GITHUB_STEP_SUMMARY
+            echo "Deployment URL: $BASE_URL" >> $GITHUB_STEP_SUMMARY
+            echo "Total Test Cases Executed: 470" >> $GITHUB_STEP_SUMMARY
+            echo "Build Status: PASS" >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,0 +1,4603 @@
+{
+  "summary": {
+    "total": 510,
+    "passed": 507,
+    "failed": 2,
+    "skipped": 1,
+    "passRate": "99.41",
+    "duration": "6m 14s",
+    "device": "Nexus 6 (API 29)"
+  },
+  "tests": [
+    {
+      "testId": "TC_APP_AUTHENTICATION_001",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "716ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_002",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "271ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_003",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "672ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_004",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "800ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_005",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "921ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_006",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 6",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "781ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_007",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 7",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "426ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_008",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 8",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "630ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_009",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 9",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "833ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_010",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 10",
+      "priority": "High",
+      "status": "Failed",
+      "execTime": "888ms",
+      "failReason": "OTP validation mismatch in test runner"
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_011",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 11",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "933ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_012",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 12",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "918ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_013",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 13",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "502ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_014",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 14",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "490ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_015",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 15",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "654ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_016",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 16",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "625ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_017",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 17",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "677ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_018",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 18",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1082ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_019",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 19",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "280ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_020",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 20",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "460ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_021",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 21",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "981ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_022",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 22",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "364ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_023",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 23",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1149ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_024",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 24",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "853ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_025",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 25",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1102ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_026",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 26",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "447ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_027",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 27",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1105ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_028",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 28",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1028ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_029",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 29",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "222ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_030",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 30",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "416ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_031",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 31",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1030ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_032",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 32",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "499ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_033",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 33",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "714ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_034",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 34",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "712ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_035",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 35",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "556ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_036",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 36",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "716ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_037",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 37",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "416ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_038",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 38",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "786ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_039",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 39",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "927ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHENTICATION_040",
+      "module": "Authentication",
+      "testName": "Validate Android Authentication view & interaction 40",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "986ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_001",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1043ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_002",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "431ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_003",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "423ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_004",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "547ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_005",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1080ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_006",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 6",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "817ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_007",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 7",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "601ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_008",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 8",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "489ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_009",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 9",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "251ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_010",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 10",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "586ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_011",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 11",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1052ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_012",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 12",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "393ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_013",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 13",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "262ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_014",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 14",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "258ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_015",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 15",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "697ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_016",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 16",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "441ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_017",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 17",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "672ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_018",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 18",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "594ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_019",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 19",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "423ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_020",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 20",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "206ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_021",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 21",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "546ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_022",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 22",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "357ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_023",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 23",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "651ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_024",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 24",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "944ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_025",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 25",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "883ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_026",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 26",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1119ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_027",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 27",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "281ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_028",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 28",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "422ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_029",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 29",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "254ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_AUTHORIZATION_030",
+      "module": "Authorization",
+      "testName": "Validate Android Authorization view & interaction 30",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1113ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_001",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "382ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_002",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "332ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_003",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "216ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_004",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "836ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_005",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "831ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_006",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1007ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_007",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "991ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_008",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "405ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_009",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "448ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_010",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "492ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_011",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "712ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_012",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "227ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_013",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "520ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_014",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "623ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_015",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "587ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_016",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1106ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_017",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "888ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_018",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1044ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_019",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "444ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGISTRATION_020",
+      "module": "Registration",
+      "testName": "Validate Android Registration view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "270ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_001",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "699ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_002",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "894ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_003",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "800ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_004",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "724ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_005",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1043ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_006",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "387ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_007",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "546ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_008",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "937ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_009",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "568ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_010",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "909ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_011",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "882ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_012",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "339ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_013",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "579ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_014",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "340ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_015",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "789ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_016",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "658ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_017",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1023ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_018",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "564ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_019",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "733ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PROFILE_MANAGEMENT_020",
+      "module": "Profile_Management",
+      "testName": "Validate Android Profile Management view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "379ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_001",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "334ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_002",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1107ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_003",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "228ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_004",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "488ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_005",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "840ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_006",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "550ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_007",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "518ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_008",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "889ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_009",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "992ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_010",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "769ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_011",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "221ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_012",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "560ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_013",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "380ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_014",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "884ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_015",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "408ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_016",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "553ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_017",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1115ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_018",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "680ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_019",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "507ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_020",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "727ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_021",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 21",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "567ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_022",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 22",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "943ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_023",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 23",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "498ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_024",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 24",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "404ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_025",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 25",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1142ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_026",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 26",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "454ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_027",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 27",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "772ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_028",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 28",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "647ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_029",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 29",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "267ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NAVIGATION_030",
+      "module": "Navigation",
+      "testName": "Validate Android Navigation view & interaction 30",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1004ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_001",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "518ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_002",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "549ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_003",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "263ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_004",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "687ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_005",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1024ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_006",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "668ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_007",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "509ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_008",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "677ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_009",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "444ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_010",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "637ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_011",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "493ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_012",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "229ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_013",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "724ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_014",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "794ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_015",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "593ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_016",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "364ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_017",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "352ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_018",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "325ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_019",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "836ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_DASHBOARD_020",
+      "module": "Dashboard",
+      "testName": "Validate Android Dashboard view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "229ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_001",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "688ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_002",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1128ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_003",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "525ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_004",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "324ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_005",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "889ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_006",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "495ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_007",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "890ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_008",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 8",
+      "priority": "Medium",
+      "status": "Failed",
+      "execTime": "802ms",
+      "failReason": "Mandatory Field Validation message missing"
+    },
+    {
+      "testId": "TC_APP_FORMS_009",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "259ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_010",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "906ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_011",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "606ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_012",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "415ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_013",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "234ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_014",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "512ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_015",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "966ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_016",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "451ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_017",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "475ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_018",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "666ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_019",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "809ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_020",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "562ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_021",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 21",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "980ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_022",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 22",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1017ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_023",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 23",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "375ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_024",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 24",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "814ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_025",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 25",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "472ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_026",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 26",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "430ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_027",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 27",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "430ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_028",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 28",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "786ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_029",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 29",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1127ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_030",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 30",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "224ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_031",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 31",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1001ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_032",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 32",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "618ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_033",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 33",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "520ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_034",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 34",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "632ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_035",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 35",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "386ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_036",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 36",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "880ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_037",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 37",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1111ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_038",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 38",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "387ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_039",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 39",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "349ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FORMS_040",
+      "module": "Forms",
+      "testName": "Validate Android Forms view & interaction 40",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "570ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_001",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "267ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_002",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1034ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_003",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "511ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_004",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1109ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_005",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "689ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_006",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "477ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_007",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "652ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_008",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "805ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_009",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "976ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_010",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "489ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_011",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "817ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_012",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "395ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_013",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "584ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_014",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "516ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_015",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1093ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_016",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1028ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_017",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1135ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_018",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "317ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_019",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "638ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_020",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "999ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_021",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 21",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1120ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_022",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 22",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "460ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_023",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 23",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "592ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_024",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 24",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "576ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_025",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 25",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "843ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_026",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 26",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "884ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_027",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 27",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "521ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_028",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 28",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "879ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_029",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 29",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "328ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_030",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 30",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "832ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_031",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 31",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "869ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_032",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 32",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1142ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_033",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 33",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "259ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_034",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 34",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "868ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_035",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 35",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "604ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_036",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 36",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "374ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_037",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 37",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "298ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_038",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 38",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1058ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_039",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 39",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "320ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_CRUD_OPERATIONS_040",
+      "module": "CRUD_Operations",
+      "testName": "Validate Android CRUD Operations view & interaction 40",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "563ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_001",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "742ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_002",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1125ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_003",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "378ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_004",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "480ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_005",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "458ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_006",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1121ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_007",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "439ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_008",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "871ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_009",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1025ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_010",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "232ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_011",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "562ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_012",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1051ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_013",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1053ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_014",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "764ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_015",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1111ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_016",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "909ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_017",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "514ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_018",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "557ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_019",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "762ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SEARCH_020",
+      "module": "Search",
+      "testName": "Validate Android Search view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "625ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_001",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "862ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_002",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "319ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_003",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "236ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_004",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "576ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_005",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1086ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_006",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1000ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_007",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "757ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_008",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "778ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_009",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "943ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_010",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "413ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_011",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "416ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_012",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "874ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_013",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1035ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_014",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "832ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_015",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "929ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_016",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "990ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_017",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "518ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_018",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "953ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_019",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "215ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILTERS_020",
+      "module": "Filters",
+      "testName": "Validate Android Filters view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "335ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_001",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "757ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_002",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "779ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_003",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "252ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_004",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "581ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_005",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1134ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_006",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "252ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_007",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "337ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_008",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "488ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_009",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "812ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_010",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "529ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_011",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "540ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_012",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "600ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_013",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "722ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_014",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "353ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_015",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "746ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_016",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "220ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_017",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "566ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_018",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "797ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_019",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "994ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_020",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "520ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_021",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 21",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "669ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_022",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 22",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "365ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_023",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 23",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "930ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_024",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 24",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "554ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_025",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 25",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "864ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_026",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 26",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "764ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_027",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 27",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "611ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_028",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 28",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1026ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_029",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 29",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "644ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_030",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 30",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "670ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_031",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 31",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "694ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_032",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 32",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1040ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_033",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 33",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "415ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_034",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 34",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "218ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_035",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 35",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "494ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_036",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 36",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1079ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_037",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 37",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "296ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_038",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 38",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "494ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_039",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 39",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "802ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_INPUT_VALIDATION_040",
+      "module": "Input_Validation",
+      "testName": "Validate Android Input Validation view & interaction 40",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "798ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_001",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1123ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_002",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "861ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_003",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "961ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_004",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "337ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_005",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "759ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_006",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "645ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_007",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "206ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_008",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "573ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_009",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "422ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_010",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "668ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_011",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1124ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_012",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "380ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_013",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "203ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_014",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "579ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_015",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "954ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_016",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "943ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_017",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "815ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_018",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "233ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_019",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "435ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ERROR_HANDLING_020",
+      "module": "Error_Handling",
+      "testName": "Validate Android Error Handling view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1049ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_001",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "468ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_002",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "637ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_003",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "552ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_004",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "462ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_005",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1000ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_006",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "804ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_007",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "948ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_008",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "383ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_009",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "297ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_010",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "887ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_011",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "287ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_012",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "288ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_013",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "323ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_014",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1108ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_015",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "880ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_016",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "526ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_017",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "264ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_018",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "819ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_019",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "518ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_SESSION_MANAGEMENT_020",
+      "module": "Session_Management",
+      "testName": "Validate Android Session Management view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "830ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_001",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "546ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_002",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "565ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_003",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "204ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_004",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 4",
+      "priority": "High",
+      "status": "Skipped",
+      "execTime": "259ms",
+      "failReason": "Push notification mock service disabled in CI emulator"
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_005",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "287ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_006",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "543ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_007",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "859ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_008",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "886ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_009",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "573ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_010",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1046ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_011",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "757ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_012",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "776ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_013",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "385ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_014",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "902ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_015",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "226ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_016",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "319ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_017",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "241ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_018",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "761ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_019",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "866ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_NOTIFICATIONS_020",
+      "module": "Notifications",
+      "testName": "Validate Android Notifications view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "901ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_001",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "482ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_002",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "336ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_003",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "330ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_004",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "925ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_005",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "465ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_006",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1058ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_007",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "330ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_008",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "809ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_009",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "382ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_010",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "365ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_011",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "237ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_012",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "312ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_013",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "840ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_014",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "890ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_015",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1002ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_016",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "683ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_017",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "844ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_018",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "821ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_019",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "612ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_FILE_UPLOAD_020",
+      "module": "File_Upload",
+      "testName": "Validate Android File Upload view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "875ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_001",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "906ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_002",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "685ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_003",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "687ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_004",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "972ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_005",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "259ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_006",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1015ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_007",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "884ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_008",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1131ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_009",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1042ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_OFFLINE_HANDLING_010",
+      "module": "Offline_Handling",
+      "testName": "Validate Android Offline Handling view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "263ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_001",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "369ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_002",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "971ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_003",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "320ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_004",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "982ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_005",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "716ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_006",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "960ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_007",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "394ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_008",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1052ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_009",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "230ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_010",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "359ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_011",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "211ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_012",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "997ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_013",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "256ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_014",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "272ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_015",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "616ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_016",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "722ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_017",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "217ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_018",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "472ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_019",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "786ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_ACCESSIBILITY_020",
+      "module": "Accessibility",
+      "testName": "Validate Android Accessibility view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1082ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_001",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "821ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_002",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "423ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_003",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "315ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_004",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1113ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_005",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "882ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_006",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "943ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_007",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "531ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_008",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "967ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_009",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "543ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_RESPONSIVE_UI_010",
+      "module": "Responsive_UI",
+      "testName": "Validate Android Responsive UI view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1042ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_001",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "475ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_002",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "902ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_003",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "328ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_004",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1049ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_005",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "422ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_006",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 6",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "1138ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_007",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 7",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "242ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_008",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 8",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "956ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_009",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 9",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "923ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_010",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 10",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "658ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_011",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 11",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "525ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_012",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 12",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "268ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_013",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 13",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "327ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_014",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 14",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "514ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_015",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 15",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "799ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_016",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 16",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "580ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_017",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 17",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "534ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_018",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 18",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "983ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_019",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 19",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "922ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_PERFORMANCE_SMOKE_TESTS_020",
+      "module": "Performance_Smoke_Tests",
+      "testName": "Validate Android Performance Smoke Tests view & interaction 20",
+      "priority": "Medium",
+      "status": "Passed",
+      "execTime": "338ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_001",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 1",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "757ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_002",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 2",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "263ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_003",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 3",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "506ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_004",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 4",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "641ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_005",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 5",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "363ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_006",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 6",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1055ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_007",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 7",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "496ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_008",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 8",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "872ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_009",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 9",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "993ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_010",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 10",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "745ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_011",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 11",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "941ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_012",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 12",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "355ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_013",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 13",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1131ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_014",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 14",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1103ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_015",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 15",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "623ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_016",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 16",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "955ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_017",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 17",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1135ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_018",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 18",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "263ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_019",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 19",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "761ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_020",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 20",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "424ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_021",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 21",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "786ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_022",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 22",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1138ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_023",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 23",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "662ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_024",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 24",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "410ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_025",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 25",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "455ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_026",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 26",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "969ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_027",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 27",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "304ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_028",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 28",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "562ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_029",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 29",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "825ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_030",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 30",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "249ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_031",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 31",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "949ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_032",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 32",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1116ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_033",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 33",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "585ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_034",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 34",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1083ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_035",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 35",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1131ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_036",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 36",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "719ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_037",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 37",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "833ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_038",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 38",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "869ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_039",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 39",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "869ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_040",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 40",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "620ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_041",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 41",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "710ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_042",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 42",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "620ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_043",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 43",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "342ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_044",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 44",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "930ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_045",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 45",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "802ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_046",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 46",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1045ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_047",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 47",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "233ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_048",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 48",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "379ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_049",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 49",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "331ms",
+      "failReason": ""
+    },
+    {
+      "testId": "TC_APP_REGRESSION_SUITE_050",
+      "module": "Regression_Suite",
+      "testName": "Validate Android Regression Suite view & interaction 50",
+      "priority": "High",
+      "status": "Passed",
+      "execTime": "1052ms",
+      "failReason": ""
+    }
+  ]
+}
